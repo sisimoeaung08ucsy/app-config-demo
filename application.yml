@@ -1,2 +1,5 @@
 app:
   welcomeMsg: Hello from Spring Cloud Config application
+
+user:
+  role: software-engineer
