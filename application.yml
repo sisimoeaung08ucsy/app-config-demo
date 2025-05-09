@@ -1,2 +1,5 @@
 app:
   welcomeMsg: ${app.welcomeMsg:Hello from config server application}
+
+user:
+  role: software engineer
