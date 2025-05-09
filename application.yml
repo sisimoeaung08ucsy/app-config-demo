@@ -3,3 +3,4 @@ app:
 
 user:
   role: software-engineer/developer
+  password: '{cipher}a0f72abebd16adcec6c82b4996e79998abf4728d9156ebffd43531471da5448d'
