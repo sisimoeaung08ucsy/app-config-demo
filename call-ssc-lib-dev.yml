@@ -1,6 +1,8 @@
 #primary address of crypto-server-lib (will be spring cloud config client's port number).
 server:
   port: 8094
+  address: localhost
+  accessMode: https
 spring:
   security:
     enabled: false
