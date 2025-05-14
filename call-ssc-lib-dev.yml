@@ -1,0 +1,13 @@
+#primary address of crypto-server-lib (will be spring cloud config client's port number).
+server:
+  port: 8094
+spring:
+  security:
+    enabled: false
+
+key-store:  classpath:client-keystore.p12
+key-store-password: '{cipher}{key:cloud-config-server-key}AQCq5EiRHeaVwtLSi6nxn4LcNZOhD/5PdBVgwgp2fl72IT7/xSgQJF/gtcVMds8F9D0drumb8F9OLDRoe1/2enumSry+fzhn4PNyIyJHwAoirK6/4EOXyGErxhyQp+X+Oj3ECYcZqafSD1muBVi9JdBQsF4sbrLcOv1xqpkj932H5BafCFWJ+Um/2aHYO31o1CZ3uZaE/U4ggx84ZNBJSuTHi9DMW/55eL+ISltu3oHiTmOb+jl4ZaKV8CWpC2xEJEJ/AjUnLOmJHc9H87u1xV/m0Wf1BJIaM+1pWoc/1nhcO+2+zSfocQNh4MsMlOB5IzfyF66EarFY99WTwxsqIl/hWjygJHoPyCOsRNWEAbvM9J5C00xC66XKf7wO8pbnPTs='
+trust-store: classpath:client-truststore.p12
+trust-store-password: '{cipher}{key:cloud-config-server-key}AQCq5EiRHeaVwtLSi6nxn4LcNZOhD/5PdBVgwgp2fl72IT7/xSgQJF/gtcVMds8F9D0drumb8F9OLDRoe1/2enumSry+fzhn4PNyIyJHwAoirK6/4EOXyGErxhyQp+X+Oj3ECYcZqafSD1muBVi9JdBQsF4sbrLcOv1xqpkj932H5BafCFWJ+Um/2aHYO31o1CZ3uZaE/U4ggx84ZNBJSuTHi9DMW/55eL+ISltu3oHiTmOb+jl4ZaKV8CWpC2xEJEJ/AjUnLOmJHc9H87u1xV/m0Wf1BJIaM+1pWoc/1nhcO+2+zSfocQNh4MsMlOB5IzfyF66EarFY99WTwxsqIl/hWjygJHoPyCOsRNWEAbvM9J5C00xC66XKf7wO8pbnPTs='
+key-store-type: JKS
+trust-store-type: PKCS12
