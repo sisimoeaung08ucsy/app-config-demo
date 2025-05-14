@@ -1,2 +1,2 @@
-crypto-server:
-         port: 8093
+lb:
+  uri: https://localhost:8093
